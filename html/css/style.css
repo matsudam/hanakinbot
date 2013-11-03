@@ -1,0 +1,148 @@
+@CHARSET "utf-8";
+
+html
+{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	line-height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align:center;
+
+	font-family: 'MS PGothic', helvetica, arial, verdana, sans-serif;
+	font-size:100%;
+}
+
+a { color: #000077; text-decoration: none; }
+a:visited { color: #000077; text-decoration: none; }
+a:hover { color: #2244ff; text-decoration: underline; }
+a:active { color: #2244ff; text-decoration: underline; }
+a img { border: 0; }
+
+img{
+	margin:0;
+	padding:0;
+}
+
+header, nav, section, article, footer {
+	display:block;
+	border:0;
+	margin:0;
+	padding:0;
+}
+
+.header_container{
+	position: relative;
+	width: 800px;
+	margin:auto;
+	text-align:left;
+}
+
+.container{
+	position: relative;
+	width: 800px;
+	margin:auto;
+	text-align:left;
+}
+.main{
+	position: absolute;
+	width: 800px;
+	margin:0;
+	text-align:center;
+}
+
+header#header{
+	top:0;
+	left:0;
+	width: 100%;
+	height: 48px;
+	padding:0;
+	margin:0;
+	background-image:url("/img/header_bg.png");
+	border:0;
+	text-align:center;
+}
+
+h1#logo{
+	padding:0;
+	margin:8px 0;
+	border:0;
+	color: #fff;
+	float: left;
+	font-size:100%;
+	font-weight:normal;
+}
+
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}
+
+#btn{
+	width: 750px;
+	margin:30px auto 25px;
+	position: relative;
+}
+#btn_left{
+	float: left;
+	width: 375px;
+}
+#btn_right{
+	float: right;
+	width: 375px;
+}
+span#welcom{
+	font-size: 200%;
+}
+p#logout{
+	margin: 70px auto 20px;	
+}
+p#delete{
+	margin: 0px auto 30px;
+}
+div.message{
+	clear:both;
+	width: 480px;
+	margin: 30px auto 30px;
+	text-align: left;
+}
+
+img.icon32{
+    padding: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+footer#footer{
+	clear:both;
+	position: relative;
+	width: 100%;
+	margin-top: 70px;
+	padding: 10px 0;
+	font-size: 80%;
+	text-align:center;
+	color: gray;
+}
+#footer a { color: gray; text-decoration: none; }
+#footer a:visited { color: gray; text-decoration: none; }
+#footer a:hover { color: #2244ff; text-decoration: underline; }
+#footer a:active { color: #2244ff; text-decoration: underline; }
